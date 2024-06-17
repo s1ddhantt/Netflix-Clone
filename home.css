@@ -1,0 +1,360 @@
+* {
+    margin-right: 5px;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    height: 25px align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+
+}
+
+.navbarleft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.navbarright {
+    color: white;
+    display: flex;
+
+}
+
+.navbarright ul li {
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.navbar ul li {
+    color: white;
+    padding: 15px;
+}
+
+.navbar ul img {
+    filter: invert(1);
+}
+
+.baner {
+
+    width: 100%;
+    height: 650px;
+
+
+}
+
+
+
+.baner video {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+
+.baner div button {
+    padding: 5px;
+
+    display: inline-flex;
+    align-items: center;
+    font-size: 18px;
+    position: relative;
+    bottom: 69vh;
+    left: 4.5vw;
+    z-index: 20;
+    margin: 5px;
+
+    border-radius: 10px;
+}
+
+
+.btn1 {
+
+    background-color: white;
+    border: 2px solid white;
+    width: 110px;
+    color: black;
+    font-weight: bolder;
+}
+
+.btn2 {
+
+    width: 150px;
+    border: 2px solid gray;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+.btn3 {
+    position: relative;
+    bottom: 76vh;
+    left: 91vw;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: transparent;
+    border: 2px solid grey;
+    filter: invert(1);
+
+
+}
+
+.btn3:hover {
+
+    transform: scale(1.05);
+
+}
+
+.baner img {
+    padding-right: 10px;
+}
+
+.btn2 img {
+    filter: invert(1);
+}
+
+
+
+.top10::-webkit-scrollbar{
+    visibility: hidden;
+}
+
+.firstroller {
+    margin-bottom: 65px;
+    width: 100%;
+}
+
+.firstroller div {
+    display: flex;
+    overflow-x: scroll;
+    position: relative;
+    bottom: 9vh;
+}
+
+
+
+.firstroller div img {
+    width: 250px;
+    padding: 8px;
+    cursor: pointer;
+    transition: all 0.3 ease-in-out;
+}
+
+.firstroller div::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+.secondroller {
+    margin-bottom: 65px;
+}
+
+.secondroller div {
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 15px;
+}
+
+.secondroller div img {
+    width: 250px;
+    height: 170px;
+    padding: 8px;
+    cursor: pointer;
+    transition: all 0.3 ease-in-out;
+}
+
+.range{
+    width: 240px;
+    position: absolute;
+    accent-color: red;
+    cursor: ew-resize;
+    height: 4px;
+    top: 221vh;
+    display: flex;
+    justify-content: center;
+}
+
+.secondroller div::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+.thirdroller {
+    margin-bottom: 65px;
+}
+
+.thirdroller div {
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 10px;
+
+}
+
+.thirdroller div img {
+    width: 250px;
+    padding: 8px;
+    cursor: pointer;
+    transition: all 0.3 ease-in-out;
+}
+
+.thirdroller div::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+.fourthroller {
+    margin-bottom: 65px;
+}
+
+
+.fourthroller div {
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 15px;
+    width: 150%;
+}
+
+.fourthroller div div{
+  display: flex;
+   
+}
+
+.fourthroller div div h1{
+    color: red;
+    font-size: 140px;
+    position: absolute; 
+    display: flex;
+}
+
+.fourthroller div img {
+    width: 170px;
+    display: flex;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: all 0.3 ease-in-out;
+}
+
+.fourthroller div::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+.fifthroller {
+    margin-bottom: 65px;
+}
+
+.fifthroller div {
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 15px;
+}
+
+.fifthroller div img {
+    width: 250px;
+    padding: 8px;
+    cursor: pointer;
+    transition: all 0.3 ease-in-out;
+}
+
+.fifthroller div::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+.sixthroller {
+    margin-bottom: 65px;
+}
+
+
+.sixthroller div {
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 15px;
+}
+
+.sixthroller div img {
+    width: 250px;
+    padding: 8px;
+    cursor: pointer;
+    transition: all 0.3 ease-in-out;
+}
+
+.sixthroller div::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+.seventhroller{
+    margin-bottom: 65px;
+}
+
+.seventhroller div{
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 15px;
+}
+
+.seventhroller div img{
+    width: 250px;
+    padding: 8px;
+    cursor: pointer;
+    transition: all 0.3 ease-in-out;
+}
+
+.seventhroller div::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 34px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+
+    color: white;
+}
+
+@media screen and (max-width: 1300px) {
+    .footer {
+        grid-template-columns: 2fr 2fr;
+    }
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.footeritems {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+  <div class="signuppage">
+    
+    <img src="Assets/images/Netflix-Logo.wine.png" width="200px" style="position: relative;left: -4%; ">
+    <div><h2>Sign In</h2></div>
+
+    <form action="home.html" onsubmit="return validation()">
+    <input type="text" placeholder="Email or Phone number" id="username">
+    
+    <input type="password" placeholder="Password" id="password">
+    <label id="label" style="color: rgb(255, 230, 0); display: flex; padding: 10px; font-weight: bolder;font-size: 18px;visibility: hidden;">
+        *Invalid ID or Password*</label>
+    <button type="submit"  class="btn1">Sign In</button>
+    </form>
+    
+    
+    <h4 style="color: gray;position: relative;left: 34%;">OR</h4>
+    <button class="btn2">Use a sign-in code</button>
+    <a class="forgetpass">Forgot Password?</a>
+    <span>New to Netflix? <a style="font-weight: bolder; color: whitesmoke;font-size: 17px;">Sign up now.</a></span>
+    <p>This page is protected by Google reCAPTCHA to ensure you're not a bot.</br> <a style="color: blue;">Learn more.</a></p>
+  </div>
+</body>
+</html>
